@@ -1,0 +1,28 @@
+{
+    "name": "sqlftw/simple-pdo",
+    "type": "library",
+    "description": "Minimalistic PDO thing.",
+    "homepage": "http://github.com/sqlftw/simple-pdo",
+    "license": ["BSD-3-Clause"],
+    "authors": [
+        {
+            "name": "Vlasta Neubauer",
+            "homepage": "http://www.paranoiq.cz"
+        }
+    ],
+    "require": {
+        "php-64bit": "^7.2.0",
+        "dogma/dogma": "*",
+        "ext-pdo":"*"
+    },
+    "require-dev": {
+        "dogma/dogma-dev": "0.1.11"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "alpha"
+}
