@@ -7,11 +7,11 @@
     "authors": [
         {
             "name": "Vlasta Neubauer",
-            "homepage": "http://www.paranoiq.cz"
+            "homepage": "https://paranoiq.cz"
         }
     ],
     "require": {
-        "php-64bit": "^7.2.0",
+        "php-64bit": "^7.2.0|^8.0",
         "dogma/dogma": "*",
         "ext-pdo":"*"
     },
